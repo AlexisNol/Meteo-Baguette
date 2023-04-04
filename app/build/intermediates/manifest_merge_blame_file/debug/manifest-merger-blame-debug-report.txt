@@ -1,0 +1,242 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="n.rnu.isetr.weatherwidgetapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:7:5-66
+13-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:7:22-64
+14
+15    <uses-feature android:name="android.hardware.location.network" />
+15-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:8:5-70
+15-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:8:19-67
+16    <uses-feature android:name="android.hardware.location.gps" />
+16-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:9:5-66
+16-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:9:19-63
+17
+18    <permission
+18-->[androidx.core:core:1.9.0] /Users/alexisnoliere/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+19        android:name="n.rnu.isetr.weatherwidgetapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.9.0] /Users/alexisnoliere/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.9.0] /Users/alexisnoliere/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="n.rnu.isetr.weatherwidgetapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.9.0] /Users/alexisnoliere/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.9.0] /Users/alexisnoliere/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:11:5-90:19
+25        android:allowBackup="true"
+25-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:12:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.9.0] /Users/alexisnoliere/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:13:9-43
+29        android:label="@string/app_name"
+29-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:14:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:15:9-54
+31        android:supportsRtl="true"
+31-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:16:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.WeatherWidgetAPP" >
+33-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:17:9-54
+34        <receiver
+34-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:18:9-28:20
+35            android:name="n.rnu.isetr.weatherwidgetapp.WeatherWidget"
+35-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:19:13-42
+36            android:exported="true" >
+36-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:20:13-36
+37            <intent-filter>
+37-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:21:13-23:29
+38                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+38-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:22:17-84
+38-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:22:25-81
+39            </intent-filter>
+40
+41            <meta-data
+41-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:25:13-27:63
+42                android:name="android.appwidget.provider"
+42-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:26:17-58
+43                android:resource="@xml/weather_widget_info" />
+43-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:27:17-60
+44        </receiver>
+45
+46        <activity
+46-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:29:9-48:20
+47            android:name="n.rnu.isetr.weatherwidgetapp.MainActivity"
+47-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:30:13-41
+48            android:exported="true" >
+48-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:31:13-36
+49            <intent-filter>
+49-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:32:13-35:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:33:17-69
+50-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:33:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:34:17-77
+52-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:34:27-74
+53            </intent-filter>
+54            <intent-filter>
+54-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:36:13-41:29
+55                <action android:name="android.intent.action.VIEW" />
+55-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:37:17-69
+55-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:37:25-66
+56                <action android:name="android.intent.action.EDIT" />
+56-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:38:17-69
+56-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:38:25-66
+57                <action android:name="android.intent.action.PICK" />
+57-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:39:17-69
+57-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:39:25-66
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:17-76
+59-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:27-73
+60            </intent-filter>
+61            <intent-filter>
+61-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:42:13-46:29
+62                <action android:name="android.intent.action.GET_CONTENT" />
+62-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:43:17-76
+62-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:43:25-73
+63                <action android:name="android.intent.action.INSERT" />
+63-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:44:17-71
+63-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:44:25-68
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:17-76
+65-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:27-73
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:49:9-67:20
+69            android:name="n.rnu.isetr.weatherwidgetapp.ParamActivity"
+69-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:50:13-42
+70            android:exported="true" >
+70-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:51:13-36
+71            <intent-filter>
+71-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:32:13-35:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:33:17-69
+72-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:33:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:34:17-77
+74-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:34:27-74
+75            </intent-filter>
+76            <intent-filter>
+76-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:36:13-41:29
+77                <action android:name="android.intent.action.VIEW" />
+77-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:37:17-69
+77-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:37:25-66
+78                <action android:name="android.intent.action.EDIT" />
+78-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:38:17-69
+78-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:38:25-66
+79                <action android:name="android.intent.action.PICK" />
+79-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:39:17-69
+79-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:39:25-66
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:17-76
+81-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:27-73
+82            </intent-filter>
+83            <intent-filter>
+83-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:42:13-46:29
+84                <action android:name="android.intent.action.GET_CONTENT" />
+84-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:43:17-76
+84-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:43:25-73
+85                <action android:name="android.intent.action.INSERT" />
+85-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:44:17-71
+85-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:44:25-68
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:17-76
+87-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:27-73
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:69:9-88:20
+91            android:name="n.rnu.isetr.weatherwidgetapp.CarteFrance"
+91-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:70:13-40
+92            android:exported="true" >
+92-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:71:13-36
+93            <intent-filter>
+93-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:32:13-35:29
+94                <action android:name="android.intent.action.MAIN" />
+94-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:33:17-69
+94-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:33:25-66
+95
+96                <category android:name="android.intent.category.LAUNCHER" />
+96-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:34:17-77
+96-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:34:27-74
+97            </intent-filter>
+98            <intent-filter>
+98-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:36:13-41:29
+99                <action android:name="android.intent.action.VIEW" />
+99-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:37:17-69
+99-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:37:25-66
+100                <action android:name="android.intent.action.EDIT" />
+100-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:38:17-69
+100-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:38:25-66
+101                <action android:name="android.intent.action.PICK" />
+101-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:39:17-69
+101-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:39:25-66
+102
+103                <category android:name="android.intent.category.DEFAULT" />
+103-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:17-76
+103-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:27-73
+104            </intent-filter>
+105            <intent-filter>
+105-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:42:13-46:29
+106                <action android:name="android.intent.action.GET_CONTENT" />
+106-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:43:17-76
+106-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:43:25-73
+107                <action android:name="android.intent.action.INSERT" />
+107-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:44:17-71
+107-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:44:25-68
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:17-76
+109-->/Users/alexisnoliere/AndroidStudioProjects/Appli_Meteo-main_vf/app/src/main/AndroidManifest.xml:40:27-73
+110            </intent-filter>
+111        </activity>
+112
+113        <provider
+113-->[androidx.emoji2:emoji2:1.2.0] /Users/alexisnoliere/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+114            android:name="androidx.startup.InitializationProvider"
+114-->[androidx.emoji2:emoji2:1.2.0] /Users/alexisnoliere/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+115            android:authorities="n.rnu.isetr.weatherwidgetapp.androidx-startup"
+115-->[androidx.emoji2:emoji2:1.2.0] /Users/alexisnoliere/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+116            android:exported="false" >
+116-->[androidx.emoji2:emoji2:1.2.0] /Users/alexisnoliere/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+117            <meta-data
+117-->[androidx.emoji2:emoji2:1.2.0] /Users/alexisnoliere/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+118                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+118-->[androidx.emoji2:emoji2:1.2.0] /Users/alexisnoliere/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+119                android:value="androidx.startup" />
+119-->[androidx.emoji2:emoji2:1.2.0] /Users/alexisnoliere/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+120            <meta-data
+120-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/alexisnoliere/.gradle/caches/transforms-3/1d1173f99a1313055c26367e9296308a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+121                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+121-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/alexisnoliere/.gradle/caches/transforms-3/1d1173f99a1313055c26367e9296308a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+122                android:value="androidx.startup" />
+122-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/alexisnoliere/.gradle/caches/transforms-3/1d1173f99a1313055c26367e9296308a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+123        </provider>
+124    </application>
+125
+126</manifest>
