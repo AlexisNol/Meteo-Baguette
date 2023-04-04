@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_map"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@color/presque_blanc">
+
+    <ImageView
+        android:id="@+id/carte_regions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-7dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/carte_regions_trsp" />
+
+    <ImageView
+        android:id="@+id/GrandEst"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="619dp"
+        android:src="@drawable/weatherlogo" />
+
+    <ImageView
+        android:id="@+id/GrandNord"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="199dp"
+        android:layout_marginBottom="619dp"
+        android:src="@drawable/weatherlogo"/>
+
+    <ImageView
+        android:id="@+id/GrandOuest"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="619dp"
+        android:src="@drawable/weatherlogo"
+        tools:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/Centre"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="619dp"
+        android:src="@drawable/weatherlogo" />
+
+    <ImageView
+        android:id="@+id/GrandSudOuest"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="619dp"
+        android:src="@drawable/weatherlogo" />
+
+    <ImageView
+        android:id="@+id/GrandCentre"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="271dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="619dp"
+        android:src="@drawable/weatherlogo" />
+
+    <ImageView
+        android:id="@+id/GrandSudEst"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="422dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="619dp"
+        android:src="@drawable/weatherlogo" />
+
+    <ImageView
+        android:id="@+id/Corse"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="341dp"
+        android:layout_marginTop="453dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="619dp"
+        android:src="@drawable/weatherlogo" />
+
+    <ImageView
+        android:id="@+id/OutreMer"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="333dp"
+        android:layout_marginBottom="619dp"
+        android:src="@drawable/weatherlogo"
+        />
+
+    <ImageButton
+        android:id="@+id/actualiser"
+        android:layout_width="74dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/actualiser_pressed"
+        android:scaleType="centerCrop" />
+
+    <ImageButton
+        android:id="@+id/retour"
+        android:layout_width="30dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="344dp"
+        android:background="@drawable/accueil_pressed"
+        android:scaleType="centerCrop" />
+
+    <ImageButton
+        android:id="@+id/ciel"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="602dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/ciel_pressed"
+        android:scaleType="centerCrop" />
+
+    <ImageButton
+        android:id="@+id/temperature"
+        android:layout_width="86dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="602dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="344dp"
+        android:background="@drawable/temp_pressed"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tempGrandNord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="136dp"
+        android:text="10°C"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tempGrandOuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="283dp"
+        android:text="10°C"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tempCentre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="155dp"
+        android:text="10°C"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tempGrandEst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="63dp"
+        android:text="10°C"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tempGrandSudOuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="318dp"
+        android:layout_marginEnd="198dp"
+        android:text="10°C"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tempGrandCentre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginEnd="105dp"
+        android:text="10°C"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tempOutreMer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="382dp"
+        android:layout_marginEnd="324dp"
+        android:text="10°C"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tempGrandSudEst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="125dp"
+        android:text="10°C"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tempCorse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="3dp"
+        android:text="10°C"
+        android:textSize="20dp" />
+
+
+
+
+</RelativeLayout>
