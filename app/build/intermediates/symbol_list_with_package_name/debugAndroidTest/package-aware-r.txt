@@ -1,0 +1,3 @@
+n.rnu.isetr.weatherwidgetapp.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
