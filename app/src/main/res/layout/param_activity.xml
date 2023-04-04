@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_param"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+    android:background="@color/white"
+    tools:context=".ParamActivity">
+
+    <TextView
+        android:id="@+id/id_param"
+        android:layout_width="290dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/gris_fonce"
+        android:gravity="center"
+        android:text="@string/param"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:id="@+id/id_l_lang"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:background="@color/presque_blanc"
+        tools:context=".ParamActivity">
+
+        <TextView
+            android:id="@+id/id_langue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/gris_fonce"
+            android:textColor="@color/white"
+            android:text="@string/langue"
+            android:textSize="28sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:entries="@array/tab_langage"
+            android:text="@string/langue"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:background="@color/presque_blanc"
+        tools:context=".ParamActivity">
+
+        <Button
+            android:id="@+id/id_btn_langue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blanc_bleu"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:text="@string/select_lang">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_l_unite"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:background="@color/presque_blanc"
+        tools:context=".ParamActivity">
+
+        <TextView
+            android:id="@+id/id_unite"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/gris_fonce"
+            android:textColor="@color/white"
+            android:text="@string/unite"
+            android:textSize="28sp" />
+
+        <Switch
+            android:id="@+id/switch_unite"
+            android:layout_width="111dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textOn="°F"
+            android:textOff="°C"
+            android:trackTint="@color/dark_theme"
+            android:thumbTint="@color/orage"
+            android:showText="true">
+        </Switch>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_l_geo"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:background="@color/presque_blanc"
+        tools:context=".ParamActivity">
+
+        <TextView
+            android:id="@+id/id_accord"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/gris_fonce"
+            android:textColor="@color/white"
+            android:text="@string/accord"
+            android:textSize="20sp" />
+
+        <Switch
+            android:id="@+id/switch_geoloc"
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:showText="true"
+            android:trackTint="@color/dark_theme"
+            android:thumbTint="@color/orage"
+            android:textOff="@string/non"
+            android:textOn="@string/oui">
+        </Switch>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_l_theme"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:background="@color/presque_blanc"
+        tools:context=".ParamActivity">
+
+        <TextView
+            android:id="@+id/id_mode_sombre"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/gris_fonce"
+            android:textColor="@color/white"
+            android:text="@string/mode_sombre"
+            android:textSize="20sp" />
+
+        <Switch
+            android:id="@+id/switch_mode_affich"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:showText="true"
+            android:trackTint="@color/dark_theme"
+            android:thumbTint="@color/orage"
+            android:textOff="@string/clair"
+            android:textOn="@string/sombre">
+        </Switch>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:background="@color/presque_blanc"
+        tools:context=".ParamActivity">
+
+        <Button
+            android:id="@+id/id_btn_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blanc_bleu"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:text="@string/retour">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

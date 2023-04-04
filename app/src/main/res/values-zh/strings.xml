@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appwidget_text">实时天气</string>
+    <string name="add_widget">添加小部件</string>
+    <string name="app_widget_description">这是一个小部件的描述</string>
+    <string name="cancel">关闭</string>
+    <string name="GPSAlertDialogTitle" translatable="false">GPSAlertDialogTitle</string>
+    <string name="GPSAlertDialogMessage" translatable="false">GPSAlertDialogMessage</string>
+    <string name="action_settings">设置</string>
+    <string name="humidity">湿度</string>
+    <string name="humidity_value">60%</string>
+    <string name="wind">风</string>
+    <string name="nw_6_mph">4 M/S</string>
+    <string name="precipitation">沉淀</string>
+    <string name="precipitation_value">2%</string>
+    <string name="date">今天</string>
+    <string name="temperature">21</string>
+    <string name="degree">°C</string>
+    <string name="city">拉德斯</string>
+    <string name="sunny">晴朗的天空</string>
+    <string name="condition_image">状况图片</string>
+    <string name="sunrise">日出</string>
+    <string name="sunrise_time">06:26</string>
+    <string name="sunset">日落</string>
+    <string name="sunset_image">日落图片</string>
+    <string name="sunrise_image">日出图片</string>
+    <string name="sunset_time">19:46</string>
+    <!-- -->
+    <string name="param">设置</string>
+    <string name="langue">语言 : </string>
+    <string name="unite">单元 : </string>
+    <string name="accord">允许地理定位 : </string>
+    <string name="mode_sombre">显示模式 : </string>
+    <string-array name="tab_langage">
+        <item>法文</item>
+        <item>英文(UK)</item>
+        <item>西班牙文</item>
+        <item>俄文</item>
+        <item>中文(简化)</item>
+    </string-array>
+    <string name="sombre">黑暗的</string>
+    <string name="clair">清除</string>
+    <string name="oui">是的</string>
+    <string name="non">不</string>
+    <string name="select_lang">改变语言</string>
+    <string name="retour">回报</string>
+    <string name="map">地图</string>
+</resources>

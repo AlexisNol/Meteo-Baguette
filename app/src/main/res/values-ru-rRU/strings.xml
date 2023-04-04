@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appwidget_text">Живая погода</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="app_widget_description">Это описание виджета</string>
+    <string name="cancel">закрывать</string>
+    <string name="GPSAlertDialogTitle" translatable="false">GPSAlertDialogTitle</string>
+    <string name="GPSAlertDialogMessage" translatable="false">GPSAlertDialogMessage</string>
+    <string name="action_settings">Настройки</string>
+    <string name="humidity">Влажность</string>
+    <string name="humidity_value">60%</string>
+    <string name="wind">Ветер</string>
+    <string name="nw_6_mph">4 M/S</string>
+    <string name="precipitation">Атмосферные осадки</string>
+    <string name="precipitation_value">2%</string>
+    <string name="date">Сегодня</string>
+    <string name="temperature">21</string>
+    <string name="degree">°C</string>
+    <string name="city">Радес, TN</string>
+    <string name="sunny">чистое небо</string>
+    <string name="condition_image">Состояние Изображение</string>
+    <string name="sunrise">Восход</string>
+    <string name="sunrise_time">06:26</string>
+    <string name="sunset">Закат</string>
+    <string name="sunset_image">картина заката</string>
+    <string name="sunrise_image">картина восхода солнца</string>
+    <string name="sunset_time">19:46</string>
+    <!-- -->
+    <string name="param">Настройки</string>
+    <string name="langue">язык : </string>
+    <string name="unite">Единица : </string>
+    <string name="accord">Разрешить геолокацию : </string>
+    <string name="mode_sombre">Режим отображения : </string>
+    <string-array name="tab_langage">
+        <item>Французский</item>
+        <item>английский(UK)</item>
+        <item>испанский</item>
+        <item>русский</item>
+        <item>китайский(упрощенный)</item>
+    </string-array>
+    <string name="sombre">темный</string>
+    <string name="clair">прозрачный</string>
+    <string name="oui">Да</string>
+    <string name="non">Нет</string>
+    <string name="select_lang">изменение языка</string>
+    <string name="retour">Обратная связь</string>
+    <string name="map">карта</string>
+</resources>
