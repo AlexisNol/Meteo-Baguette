@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appwidget_text">Météo en direct</string>
+    <string name="add_widget">Ajouter un widget</string>
+    <string name="app_widget_description">Ceci est la description d\'un widget</string>
+    <string name="cancel">fermer</string>
+    <string name="GPSAlertDialogTitle" translatable="false">GPSAlertDialogTitle</string>
+    <string name="GPSAlertDialogMessage" translatable="false">GPSAlertDialogMessage</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="humidity">Humidité</string>
+    <string name="humidity_value">60%</string>
+    <string name="wind">Vent</string>
+    <string name="nw_6_mph">4 M/S</string>
+    <string name="precipitation">Précipitation</string>
+    <string name="precipitation_value">2%</string>
+    <string name="date">Aujourd\'hui</string>
+    <string name="temperature">21</string>
+    <string name="degree">°C</string>
+    <string name="city">Rades, TN</string>
+    <string name="sunny">Ciel éclairci</string>
+    <string name="condition_image">Condition Image</string>
+    <string name="sunrise">Lever du Soleil</string>
+    <string name="sunrise_time">06:26</string>
+    <string name="sunset">Coucher du Soleil</string>
+    <string name="sunset_image">Image coucher du Soleil</string>
+    <string name="sunrise_image">Image lever du Soleil</string>
+    <string name="sunset_time">19:46</string>
+    <!-- -->
+    <string name="param">Paramètres</string>
+    <string name="langue">Langue : </string>
+    <string name="unite">Unité : </string>
+    <string name="accord">Autoriser la géolocalisation : </string>
+    <string name="mode_sombre">Mode d\'affichage : </string>
+    <string-array name="tab_langage">
+        <item>Français</item>
+        <item>Anglais(UK)</item>
+        <item>Espagnol</item>
+        <item>Russe</item>
+        <item>Chinois(Simplifié)</item>
+    </string-array>
+    <string name="sombre">Sombre</string>
+    <string name="clair">Clair</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="select_lang">Changer de langue</string>
+    <string name="retour">Retour</string>
+    <string name="map">Carte</string>
+</resources>
